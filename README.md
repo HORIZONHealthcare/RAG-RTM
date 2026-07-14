@@ -1,6 +1,6 @@
-# Differential group RTM effects in retinal age models
+# Investigating the fundamental characteristics of retinal age models
 
-Code and manuscript for the retinal age model used in the preprint [`docs/preprint.md`](docs/preprint.md).
+Code and manuscript for the retinal age model used in the [preprint](https://www.researchsquare.com/article/rs-10157626/v1).
 
 The retinal age model takes a colour fundus photograph (CFP) and predicts chronological age via a vision-transformer (DINOv2 / DINOv3) backbone with a small regression head. From the prediction we compute the retinal age gap (RAG = predicted age − chronological age) and report mean RAG, MAE and RMSE.
 
